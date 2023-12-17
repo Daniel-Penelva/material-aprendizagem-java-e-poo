@@ -1,0 +1,5 @@
+# Number
+
+Em Java, a classe Number é uma classe abstrata que é a classe base para as classes numéricas mais específicas, como Integer, Double, Long, etc. Number fornece métodos comuns para a conversão e obtenção de valores numéricos, independentemente do tipo específico do número.
+
+A classe Number é útil quando deseja escrever métodos ou classes que podem operar em números de qualquer tipo. Isso é especialmente útil em situações em que o tipo exato do número não é conhecido antecipadamente. No entanto, ao realizar operações numéricas, é importante estar ciente de que o boxing e unboxing podem ocorrer, o que pode afetar o desempenho em cenários críticos. Em muitos casos, é preferível usar tipos primitivos quando o tipo exato é conhecido.

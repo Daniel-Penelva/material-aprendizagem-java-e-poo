@@ -1,0 +1,12 @@
+Debug 
+
+-> F6 - Segue linha a linha
+
+-> F5 - Entra no método
+
+-> F7 - Sai de dentro do método atual
+
+-> F8 - Segue para o próximo ponto de parada
+
+-> Sublinhar selecionando o código e apertar o comando CTRL + SHIFT + I 
+   vai gerar o valor da expressão ou variável. (Ou seja, vai ver a expressão)  
