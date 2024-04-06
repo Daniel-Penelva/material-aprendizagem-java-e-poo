@@ -11,6 +11,7 @@ public class Usuario {
 		this.nome = nome;
 	}
 
+	// Exemplificando o uso de Switch nova funcionalidade do java 17
 	public String getNomeMaiuscula() {
 		return switch (tipo) {
 		case ADMINISTRADOR -> "ADMINISTRADOR: " + nome.toUpperCase();
