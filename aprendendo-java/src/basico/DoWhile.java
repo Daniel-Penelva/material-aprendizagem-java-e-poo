@@ -6,8 +6,8 @@ public class DoWhile {
 		
 		/*
 		 * Exemplo 
-		 * do ... while(){} - testa a execução no final - esta estrutura é executada 1 ou n vezes - OBS. Se number for igual 5, o que acontece? o programa 
-		 * vai executar o number 5, mas quando for para o while não vai executar e para a condição. O do...while(){} vai ser executado pelo menos uma vez.
+		 * do ... while(){} - testa a execuï¿½ï¿½o no final - esta estrutura ï¿½ executada 1 ou n vezes - OBS. Se number for igual 5, o que acontece? o programa 
+		 * vai executar o number 5, mas quando for para o while nï¿½o vai executar e para a condiï¿½ï¿½o. O do...while(){} vai ser executado pelo menos uma vez.
 		 */
 
 		int number = 5;
@@ -17,7 +17,7 @@ public class DoWhile {
 
 		} while (number <= 5);
 
-		System.out.println("número: " + number);
+		System.out.println("nÃºmero: " + number);
 		System.out.println("\n\n");
 
 	}

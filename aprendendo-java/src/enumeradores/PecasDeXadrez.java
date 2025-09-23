@@ -2,6 +2,6 @@ package enumeradores;
 
 public enum PecasDeXadrez {
 	
-	//SÃO CONSTANTES DO TIPO PEÇAS DE XADREZ
-	PEÃO, TORRE, BISPO, CAVALO, REI, RAINHA;
+	//Sï¿½O CONSTANTES DO TIPO PEï¿½AS DE XADREZ
+	PEAO, TORRE, BISPO, CAVALO, REI, RAINHA;
 }

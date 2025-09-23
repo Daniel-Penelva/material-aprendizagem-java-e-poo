@@ -6,24 +6,24 @@ public class ArraySimples {
 
 	public static void main(String[] args) 
 	{
-		/*Array = conjuntos indexados(armazenados) de informações
+		/*Array = conjuntos indexados(armazenados) de informaï¿½ï¿½es
 		 * 
-		 * Paises       posição
+		 * Paises       posiÃ§Ã£o
 		 *
 		 * Russia        indice 0
 		 * Brasil        indice 1
 		 * Inglaterra    indice 2 
-		 * Autrália      indice 3
+		 * AutrÃ¡lia      indice 3
 		 * 
 		 * */
-	  String[] paises = {"Rússia","Brasil","Inglaterra","Austrália"};
+	  String[] paises = {"RÃºssia","Brasil","Inglaterra","Austrï¿½lia"};
 	  
-	  System.out.println("País:" + paises[0]);
+	  System.out.println("PaÃ­s:" + paises[0]);
 	  
-	  /*Exemplo de substituição de valor armazenado no indice zero*/
+	  /*Exemplo de substituiÃ§ao de valor armazenado no indice zero*/
 	  
 	  paises[0] = "Brasil";
-	  System.out.println("País:" + paises[0]);
+	  System.out.println("PaÃ­s:" + paises[0]);
 	  
 	  /*Exemplo 2 - outra forma de usar um array*/
 	  
@@ -43,21 +43,21 @@ public class ArraySimples {
 	  System.out.println(paises.length);
 	  
 	 
-	  /* Exemplo 4 - Classe utilizada para manipular array - metodo toString() - este método recebe um parâmetro */
+	  /* Exemplo 4 - Classe utilizada para manipular array - metodo toString() - este mï¿½todo recebe um parï¿½metro */
 	  
 	  String[] carros = {"Ferrari", "Uno" , "Fusca" , "Porshe"};
 	  System.out.println(Arrays.toString(carros));
 	  
-	  /*Exemplo 5 - método binarySearch() - este método recorre a uma busca de referência identificando a posição */
+	  /*Exemplo 5 - mï¿½todo binarySearch() - este mï¿½todo recorre a uma busca de referï¿½ncia identificando a posiï¿½ï¿½o */
 	  
-	  int posição = Arrays.binarySearch(carros,"Porshe");
-	  System.out.println("Valor da posição: " + posição);
+	  int posicao = Arrays.binarySearch(carros,"Porshe");
+	  System.out.println("Valor da posicao: " + posicao);
 	  
-	  /*Exemplo 6 - método sort() - este método ordena os valores na ordem crescente*/
+	  /*Exemplo 6 - mï¿½todo sort() - este mï¿½todo ordena os valores na ordem crescente*/
 	  Arrays.sort(carros, 0 , carros.length);
 	  System.out.println(Arrays.toString(carros));
 	  
-	  /*Exemplo 7 - método value() - este método acessa o valor do indice pre-determinado do usuario*/
+	  /*Exemplo 7 - mï¿½todo value() - este mï¿½todo acessa o valor do indice pre-determinado do usuario*/
 	  Double[] numerosFracionados = {12.90 , 23.70, 2.70, 4.7};
 	  System.out.println(numerosFracionados[1].doubleValue());
 			  

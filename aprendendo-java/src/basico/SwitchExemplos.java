@@ -11,7 +11,7 @@ public class SwitchExemplos {
 		case 1 -> "One";
 		case 2 -> "Two";
 		case 3 -> "Three";
-		default -> "valor inv·lido";
+		default -> "valor inv√°lido";
 		};
 
 		System.out.println("Resultado: " + resultado);
@@ -23,7 +23,7 @@ public class SwitchExemplos {
 		case "Verde" -> "Cor Verde";
 		case "Azul" -> "Cor Azul";
 		case "Amarelo" -> "Cor amarelo";
-		default -> "valor inv·lido";
+		default -> "valor inv√°lido";
 		};
 
 		System.out.println("Resultado: " + resultadoCor);

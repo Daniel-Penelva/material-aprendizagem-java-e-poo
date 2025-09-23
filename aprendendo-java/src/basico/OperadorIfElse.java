@@ -1,10 +1,11 @@
 package basico;
 
-public class IfEElse {
+public class OperadorIfElse {
 
 	public static void main(String[] args) {
 		
 		/* Exemplo 1*/ 
+		System.out.println("Exemplo 1");
 		int idade = 16;
 		 
 		if(idade <= 17)
@@ -14,6 +15,9 @@ public class IfEElse {
 		 
 		 
 		 /* Exemplo 2 */
+		System.out.println();
+		System.out.println("Exemplo 2");
+		
 		int idade1 = 20;
 		 
 		if(idade1 <= 17)
@@ -24,14 +28,39 @@ public class IfEElse {
 		 {
 		   System.out.println("Adulto"); 
 		 }
-		 
-		 /* Exemplo 3*/
+		
+		/* Exemplo 3*/
+		System.out.println();
+		System.out.println("Exemplo 3");
+		
+		int age = 18;
+		int idadeParaDirigir = 18;
+		int idadeParaNamorar = 18;
+		int idadeParaBeber = 21;
+		
+		if (age >= idadeParaDirigir) {
+			System.out.println("Pode dirigir!");
+		}
+		if (age >= idadeParaNamorar) {
+			System.out.println("Pode namorar!");
+		}
+		if (age >= idadeParaBeber) {
+			System.out.println("Pode beber!");
+		}
+		else {
+			System.out.println("Ã‰ de maior");
+		}
+		
+	
+		 /* Exemplo 4*/
+		System.out.println();
+		System.out.println("Exemplo 4");
 		 
 		int id = 50;
 		 
 		if(id <= 10)
 		 {
-			 System.out.println("criança"); 
+			 System.out.println("crianÃ§a"); 
 		 }
 		else if(id >= 11 && id <=17) 
 		 {
@@ -47,8 +76,11 @@ public class IfEElse {
 		 }
 		
 		
-		/* Exemplo 4 */
-		float nota = 5F;   // OBS. O "F" é para indicar que é um tipo float
+		/* Exemplo 5 */
+		System.out.println();
+		System.out.println("Exemplo 5");
+		
+		float nota = 5F;   // OBS. O "F" Ã© para indicar que Ã© um tipo float
 		
 		if(nota >= 7)
 		{
@@ -64,7 +96,10 @@ public class IfEElse {
 		}
 		
 		
-		/*Exemplo 5*/
+		/*Exemplo 6*/
+		System.out.println();
+		System.out.println("Exemplo 6");
+		
 		 boolean passou = true;
 		 
 		 if(passou)
@@ -77,36 +112,44 @@ public class IfEElse {
 		 }
 		
 		 
-		 /* Exemplo 6 */
+		 /* Exemplo 7 */
+		 System.out.println();
+		 System.out.println("Exemplo 7");
+		 
 		 int numero = 12;
 		 
 		 if((numero % 2) == 0)
 		 {
-		   System.out.println("Número Par.");
+		   System.out.println("Nï¿½mero Par.");
 		 }
 		 else
 		 {
-		   System.out.println("Número Impar."); 
+		   System.out.println("Nï¿½mero Impar."); 
 		 }
 		 
 		 
-		 /*Exemplo 7 - métodp equals() - este método é para comparar somente valores iguais*/
+		 /*Exemplo 8 - mï¿½todp equals() - este mï¿½todo ï¿½ para comparar somente valores iguais*/
+		 System.out.println();
+		 System.out.println("Exemplo 8");
 		 
 		 String cor = "Verde";
 		 
 		 if(cor.equals("Azul"))
 		 {
-			 System.out.println("Sua cor preferida é azul.");
+			 System.out.println("Sua cor preferida Ã© azul.");
 		 }
 		 else
 		 {
-			 System.out.println("Está cor não existe.");	 
+			 System.out.println("EstÃ¡ cor nÃ£o existe.");	 
 		 }
 		 
-		 // Exemplo 7
+		 // Exemplo 9
+		 System.out.println();
+		 System.out.println("Exemplo 9");
+		 
 		 int nota_final = 5;
 			
-			//podendo varrer um ou mais condição.
+			//podendo varrer um ou mais condiÃ§Ã£o.
 			if(nota_final <=5)
 				System.out.println("Reprovado");
 			if(nota_final >=5 && nota_final <= 7)
@@ -115,7 +158,10 @@ public class IfEElse {
 				System.out.println("Aprovado");
 			
 
-			// Exemplo 8 - varrendo uma unica condição
+			// Exemplo 10 - varrendo uma unica condiÃ§Ã£o
+			System.out.println();
+			System.out.println("Exemplo 10");
+			
 			System.out.println("");
 			
 			if(nota_final <=5)
@@ -126,21 +172,72 @@ public class IfEElse {
 				System.out.println("Aprovado");
 			
 			
-			// Exemplo 9 - Como estruturar de forma ANINHADA corretamente
-			System.out.println("");
+			// Exemplo 11 - Como estruturar de forma ANINHADA corretamente
+			System.out.println();
+			System.out.println("Exemplo 11");
 			
 			int x = 5, y=0;
 			
 			if(x > 5){
 				if(y > 5)
-				    System.out.println("x e y é maior que 5");        
+				    System.out.println("x e y Ã© maior que 5");        
 			}
 			else
-			      System.out.println("x e y é menor que 5");
+			      System.out.println("x e y Ã© menor que 5");
 			
 			
-			// Exemplo 10 - Como estruturar de forma ANINHADA corretamente
+			// Exemplo 12 - Como estruturar de forma ANINHADA corretamente
 			System.out.println("");
-			System.out.println(x>=5 ? "x é maior que 5" : "x é menor que 5");
+			System.out.println("Exemplo 12");
+			System.out.println(x>=5 ? "x Ã© maior que 5" : "x Ã© menor que 5");
+			
+			
+			/* Exemplos 13  - utilizando outros operadores 
+			 * AND (&&) â†’ sÃ³ Ã© verdadeiro se todas as condiÃ§Ãµes forem verdadeiras.
+			 * OR (||) â†’ Ã© verdadeiro se qualquer condiÃ§Ã£o for verdadeira.
+			 * NOT (!) â†’ inverte o valor lÃ³gico da variÃ¡vel.
+			 * XOR (^) â†’ verdadeiro se apenas uma das condiÃ§Ãµes for verdadeira.
+			 * */
+			System.out.println("");
+			System.out.println("Exemplo 13");
+			
+			
+			int idade2 = 20;
+			boolean temCarteira = true;
+			boolean temMulta = false;
+			
+			// Exemplo de AND (&&)
+			if (idade2 >= 18 && temCarteira) {
+				System.out.println("Pode Dirigir");
+			} else {
+				System.out.println("NÃ£o pode dirigir");
+			}
+			
+			// Exemplo de OR (||)
+			if (idade <= 18 && !temCarteira) {
+				System.out.println("NÃ£o pode dirigir");
+			} else {
+				System.out.println("Pode Dirigir");
+			}
+			
+			// Exemplo de NOT (!)
+			if (!temMulta) {
+				System.out.println("Sem multas, tudo certo!");
+			} else {
+				System.out.println("Tem multa, atenÃ§Ã£o!");
+			}
+			
+			
+			// Exemplo XOR (^)
+			boolean passouTesteTeorico = true;
+			boolean passouTestePratico = false;
+			
+			if (passouTesteTeorico ^ passouTestePratico) {
+				System.out.println("Aprovou em apenas um teste");
+			} else if (passouTesteTeorico && passouTestePratico) {
+	            System.out.println("Aprovou em todos os testes!");
+	        } else {
+	            System.out.println("Reprovou em todos os testes.");
+	        }
 	}
 }

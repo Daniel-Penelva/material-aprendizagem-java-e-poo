@@ -16,7 +16,7 @@ public class Foreach {
 
 		System.out.println("\n\n");
 		
-		/* Exemplo com foreach - OBS. não tem acesso ao i e a execução só é crescente, não tem como voltar */
+		/* Exemplo com foreach - OBS. nï¿½o tem acesso ao i e a execuï¿½ï¿½o sï¿½ ï¿½ crescente, nï¿½o tem como voltar */
 		for (int par : pares) {
 			System.out.println(par);
 		}
@@ -24,7 +24,7 @@ public class Foreach {
 		System.out.println("\n\n");
 		
 		
-		/* Exemplo 3 - preenchimento definidos com números inteiros (Integer) */
+		/* Exemplo 3 - preenchimento definidos com nï¿½meros inteiros (Integer) */
 		ArrayList<Integer> lista = new ArrayList<>();
 		
 		for (int i = 0; i < 10; i++) {
@@ -39,7 +39,7 @@ public class Foreach {
 		
 		// Criando uma ArrayList de Strings
         ArrayList<String> listaFrutas = new ArrayList<>();
-        listaFrutas.add("Maçã");
+        listaFrutas.add("MaÃ§a");
         listaFrutas.add("Banana");
         listaFrutas.add("Laranja");
 
@@ -51,5 +51,5 @@ public class Foreach {
 }
 
 /**
- * O Enhanced For Loop (foreach) é especialmente útil quando só precisa iterar sobre os elementos da coleção e não precisa se preocupar com índices ou 
- * modificações na coleção durante a iteração. Ele melhora a legibilidade do código e é uma escolha preferida em muitos casos.*/
+ * O Enhanced For Loop (foreach) ï¿½ especialmente ï¿½til quando sï¿½ precisa iterar sobre os elementos da coleï¿½ï¿½o e nï¿½o precisa se preocupar com ï¿½ndices ou 
+ * modificaï¿½ï¿½es na coleï¿½ï¿½o durante a iteraï¿½ï¿½o. Ele melhora a legibilidade do cï¿½digo e ï¿½ uma escolha preferida em muitos casos.*/

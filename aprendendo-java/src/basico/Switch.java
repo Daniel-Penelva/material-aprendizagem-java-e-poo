@@ -9,7 +9,7 @@ public class Switch {
 
 		/*
 		 * Exemplo 1 - Switch -compara o valor recebido com os casos previstos no seu
-		 * bloco, útil para avaliar se o valor é igual a outros
+		 * bloco, Ãºtil para avaliar se o valor Ã© igual a outros
 		 */
 		char sexo = 'M';
 
@@ -23,7 +23,7 @@ public class Switch {
 			break;
 
 		default:
-			System.out.println("Opção Inválida.");
+			System.out.println("OpÃ§Ã£o InvÃ¡lida.");
 
 		}
 
@@ -35,7 +35,7 @@ public class Switch {
 		case "java":
 		case "C++":
 		case "cobol":
-			System.out.println("Linguagem de programação");
+			System.out.println("Linguagem de programaÃ§Ã£o");
 			break;
 
 		case "oracle":
@@ -45,14 +45,14 @@ public class Switch {
 			break;
 
 		default:
-			System.out.println("Linguagem de programação não existe");
+			System.out.println("Linguagem de programaÃ§Ã£o nï¿½o existe");
 
 		}
 
 		/* Exemplo 3 */
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Entre com a opção: ");
+		System.out.println("Entre com a opÃ§Ã£o: ");
 		System.out.println("1. Programador");
 		System.out.println("2. Analista de Banco de Dados");
 		System.out.println("3. Analista de Sistema");
@@ -61,23 +61,23 @@ public class Switch {
 
 		switch (opcao) {
 		case 1:
-			System.out.println("Você é um programador");
+			System.out.println("VocÃª Ã© um programador");
 			break;
 
 		case 2:
-			System.out.println("Você é um Analista de Banco de Dados");
+			System.out.println("VocÃª Ã© um Analista de Banco de Dados");
 			break;
 
 		case 3:
-			System.out.println("Você é um Analista de Sistema");
+			System.out.println("VocÃª Ã© um Analista de Sistema");
 			break;
 
 		case 4:
-			System.out.println("Você está na Equipe de Teste");
+			System.out.println("VocÃª estÃ¡ na Equipe de Teste");
 			break;
 
 		default:
-			System.out.println("Opção incorreta!");
+			System.out.println("Opï¿½ï¿½o incorreta!");
 			break;
 		}
 
@@ -86,7 +86,7 @@ public class Switch {
 		@SuppressWarnings("unused")
 		boolean responda = true;
 
-		System.out.println("Escolha a opção: ");
+		System.out.println("Escolha a opÃ§Ã£o: ");
 		System.out.println("1.jogar");
 		System.out.println("2.Sair");
 		int jogar = scanner.nextInt();
@@ -94,19 +94,19 @@ public class Switch {
 		switch (jogar) {
 
 		case 1:
-			System.out.println("Joga o dado (Entre 1 até 6): ");
+			System.out.println("Joga o dado (Entre 1 atÃ© 6): ");
 			int palpite = scanner.nextInt();
 
 			if(palpite <= 6) {
 			
-				Random n = new Random(); // método Random() - gera um valor aleatório
+				Random n = new Random(); // mï¿½todo Random() - gera um valor aleatï¿½rio
 	
-				/* Vai buscar seis números aleatórios, porém importante saber que começa com o indice 0, portanto, coloca-se mais um, ou seja, 
+				/* Vai buscar seis nÃºmeros aleatÃ³rios, porÃ©m importante saber que comeÃ§a com o indice 0, portanto, coloca-se mais um, ou seja, 
 				 * o valor zero fica sendo (0+1) = 1 e o valor 5 fica sendo (5+1) = 6 */
 				int dado = n.nextInt(6) + 1;
 	
 				if (palpite == dado) {
-					System.out.println("Você acertou!");
+					System.out.println("VocÃª acertou!");
 	
 				} else {
 					System.out.println("Vc erro!");
@@ -117,7 +117,7 @@ public class Switch {
 				System.out.println("Valor do dado: " + dado);
 				
 			}else {
-				System.out.println("Este valor não existe no dado");
+				System.out.println("Este valor nÃ£o existe no dado");
 			}
 
 		case 2:
