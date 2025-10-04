@@ -1,19 +1,19 @@
 # Abstract 
 
-A palavra-chave abstract é utilizada para definir classes e métodos abstratos. 
+A palavra-chave abstract ï¿½ utilizada para definir classes e mï¿½todos abstratos. 
 
 Explorando abstract em ambos os casos:
 
 ## 1. **Classes Abstratas:**
-   - Uma classe abstrata é uma classe que não pode ser instanciada diretamente. É frequentemente utilizada para fornecer uma base comum para subclasses e para conter métodos abstratos que devem ser implementados pelas subclasses.
-   - Uma classe abstrata pode ter métodos abstratos (sem implementação) e métodos concretos (com implementação).
+   - Uma classe abstrata ï¿½ uma classe que nï¿½o pode ser instanciada diretamente. ï¿½ frequentemente utilizada para fornecer uma base comum para subclasses e para conter mï¿½todos abstratos que devem ser implementados pelas subclasses.
+   - Uma classe abstrata pode ter mï¿½todos abstratos (sem implementaï¿½ï¿½o) e mï¿½todos concretos (com implementaï¿½ï¿½o).
 
-Uma classe abstrata não pode ser instanciada diretamente, o que significa que não pode criar objetos (instanciar) a partir dela. A razão para isso é que as classes abstratas geralmente são projetadas para serem estendidas por subclasses concretas que fornecem implementações para métodos abstratos.
+Uma classe abstrata nï¿½o pode ser instanciada diretamente, o que significa que nï¿½o pode criar objetos (instanciar) a partir dela. A razï¿½o para isso ï¿½ que as classes abstratas geralmente sï¿½o projetadas para serem estendidas por subclasses concretas que fornecem implementaï¿½ï¿½es para mï¿½todos abstratos.
 
-Quando declara uma classe como abstrata usando a palavra-chave abstract, isso implica que a classe é incompleta e deve ser estendida para ser utilizada completamente. Uma classe abstrata pode ter métodos concretos com implementações, mas também pode ter métodos abstratos, que são apenas declarações de método sem implementação.
+Quando declara uma classe como abstrata usando a palavra-chave abstract, isso implica que a classe ï¿½ incompleta e deve ser estendida para ser utilizada completamente. Uma classe abstrata pode ter mï¿½todos concretos com implementaï¿½ï¿½es, mas tambï¿½m pode ter mï¿½todos abstratos, que sï¿½o apenas declaraï¿½ï¿½es de mï¿½todo sem implementaï¿½ï¿½o.
 
-## 2. **Métodos Abstratos:**
-   - Um método abstrato é um método declarado sem uma implementação na classe abstrata. A implementação é fornecida pelas subclasses concretas.
-   - Toda classe que contém um método abstrato deve ser marcada como abstrata.
+## 2. **Mï¿½todos Abstratos:**
+   - Um mï¿½todo abstrato ï¿½ um mï¿½todo declarado sem uma implementaï¿½ï¿½o na classe abstrata. A implementaï¿½ï¿½o ï¿½ fornecida pelas subclasses concretas.
+   - Toda classe que contï¿½m um mï¿½todo abstrato deve ser marcada como abstrata.
 
-O uso de classes e métodos abstratos é útil quando quer fornecer uma estrutura comum para várias classes, mas deixa a implementação específica para as subclasses.
+O uso de classes e mï¿½todos abstratos Ã© Ãºtil quando quer fornecer uma estrutura comum para vÃ¡rias classes, mas deixa a implementaÃ§Ã£o especÃ­fica para as subclasses.

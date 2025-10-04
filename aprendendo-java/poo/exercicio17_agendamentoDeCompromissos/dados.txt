@@ -1,0 +1,14 @@
+
+1. Separando Responsabilidades:
+
+	. Classe Pessoa → só dados pessoais (nome, telefone, email, nascimento).
+
+	. Classe Compromisso → representa um agendamento (data, tipo, participante).
+
+	. Classe Agenda → gerencia um array de compromissos, não de pessoas.
+	
+2. Relacionamento:
+
+	. Pessoa participa de um Compromisso.
+
+	. Agenda gerencia vários Compromisso.
